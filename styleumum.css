@@ -1,6 +1,6 @@
 .button-tugas{
     border: none;
-    background-color: #17b978;
+    background-color: var(--biru2);
     color: white;
     width: 150px;
     height: 50px;
@@ -9,6 +9,6 @@
 }
 .button-tugas:hover{
     background-color: white;
-    color: var(--hijau);
-    border: 1px solid var(--hijau);
+    color: var(--biru2);
+    border: 1px solid var(--biru2);
 }

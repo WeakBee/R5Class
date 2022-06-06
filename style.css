@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --hijau : #17b978;
-    --biru : #263b5e;
+    --biru : #34325e;
+    --biru2 : #6159e6;
+    --biru3 : #6c63ff;
+    --biru4 : #9891ff;
+    --birutransparent: #6059e679;
 }
 *{
     font-family: 'Raleway', sans-serif;
@@ -17,8 +20,8 @@
     align-items: center;
 }
 #welcome .selamat{
-    margin-top: 80px;
-    color: #17b978;
+    margin-top: 15vh;
+    color: var(--biru2);
 }
 #welcome .kelas{
     font-size: 100px;
@@ -52,25 +55,44 @@
     justify-content: center;
 }
 #counter .col-lg-4 div{
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     width: 300px;
-    background-color: #17b97863;
+    background-color: var(--birutransparent);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
+    transition: 0.5s;
+}
+#counter .col-lg-4 div:hover{
+    color: white;
+    background-color: var(--biru);
+    transform: scale(1.2);
 }
 /* Counter */
 
 /* JADWAL PELAJARAN */
 #Jadwal-Pelajaran{
-
+    margin-top: 30px;
+    padding: 30px;
+    color: white;
 }
-#Jadwal-Pelajaran{
-
+#Jadwal-Pelajaran .judul{
+    overflow: hidden;
+    text-align: center;
+    background-color: var(--biru);
+    border-radius: 20px 20px 0 0 ;
 }
-#Jadwal-Pelajaran{
-
+#Jadwal-Pelajaran .judul h1{
+    font-weight: 700;
 }
-#Jadwal-Pelajaran{
+#Jadwal-Pelajaran .col-3{
+    overflow: hidden;
+}
 
+#Jadwal-Pelajaran .kotak{
+    padding: 20px;
+    background-color: var(--biru2);
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
 }
 
 /* JADWAL PELAJARAN */
@@ -89,3 +111,13 @@
 
 }
 /* MATKUL */
+
+@media only screen and (max-width: 992px) {
+    #welcome{
+        text-align: center;
+    }
+    #welcome img{
+        margin-top: 100px;
+        width: 100vw;
+    }
+  }
