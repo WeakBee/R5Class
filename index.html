@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/r5-icon-wbg.png">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="styleumum.css">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- BOOTSTRAP -->
@@ -14,38 +15,116 @@
     <title>R5Class</title>
 </head>
 <body>
+    <!-- NAVBAR -->
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="assets/r5-icon-wbg.png" width="40px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Jadwal Pelajaran</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ruang Belajar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ruang Admin</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="button-tugas" type="submit">Kuy !</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- Welcome -->
     <section id="welcome">
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <h1><span>WELCOME</span> TO</h1>
-                    <h1><span>R5</span> CLASS</h1>
+                <div class="col-lg-5">
+                    <div>
+                        <p class="selamat">Selamat datang di Website Kelas</p>
+                        <h1 class="kelas">R-75</h1>
+                        <p class="keterangan my-4">Website ini menyediakan berbagai macam keperluan yang akan membantu kita di semester 7 , tujuannya agar memiliki struktur rapih dan menyimpan semua materi dan tugas selama kuliah, tidak perlu pusing mencari cari file lama sudah hilang atau belum karna semua tersimpan disini</p>
+                        <button class="button-tugas">Tugas Terbaru</button>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <img src="assets/undraw_book.svg">
                 </div>
             </div>
         </div>
     </section>
-    <section id="Jadwal-Pelajaran">
-        <div class="container judul-container">
-            <div class="judul-jadwal">
-                <h1 class="judul">Jadwal Pelajaran</h1>
-            </div>
-        </div>
+    <!-- Welcome -->
+    
+    <!-- Counter -->
+    <section id="counter">
         <div class="container">
             <div class="row">
-                <div class="col-4"></div>
-                <div class="col-4"></div>
-                <div class="col-4"></div>
+                <div class="col-lg-4">
+                    <div>
+                        <h4>9</h4>
+                        <p>Jumlah Matkul</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <h4>0</h4>
+                        <p>Jumlah Tugas</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <h4>0</h4>
+                        <p>Jumlah Tugas Kelompok</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section id="Mata-Kuliah">
-        <h1>Mata Kuliah</h1>
-        <a href="matkul/bindo.html">Bahasa Indonesia</a>
+    <!-- Counter -->
+
+    <!-- Jadwal Pelajaran -->
+    <section id="Jadwal-Pelajaran">
+        <div class="container">
+            <div class="row">
+
+            </div>
+        </div>
     </section>
-    
+    <!-- Jadwal Pelajaran -->
+
+    <!-- Mata Kuliah -->
+    <section id="Mata-Kuliah">
+        <div class="container">
+            <div class="row">
+
+            </div>
+        </div>
+    </section>
+    <!-- Mata Kuliah -->
+
     <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <!-- BOOTSTRAP -->
+
+    <!-- GSAP UMUM -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- GSAP UMUM -->
+
+    <!-- GSAP SCROLLTRIGGER -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" integrity="sha512-v8B8T8l8JiiJRGomPd2k+bPS98RWBLGChFMJbK1hmHiDHYq0EjdQl20LyWeIs+MGRLTWBycJGEGAjKkEtd7w5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- GSAP SCROLLTRIGGER -->
     <script src="app.js"></script>
 </body>
 </html>

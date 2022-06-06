@@ -1,0 +1,23 @@
+:root{
+    --hijau : #17b978;
+    --biru : #263b5e;
+}
+.navbar{
+    background-color: #263b5e;
+}
+.nav-link{
+    color: #57e6ac !important;
+    margin-right: 30px;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.navbar .button-tugas{
+    background-color: #57e6ac;
+    color: var(--biru);
+}
+.navbar .button-tugas:hover{
+    background-color: transparent;
+    color: #57e6ac;
+    border: 1px solid #57e6ac;
+}
