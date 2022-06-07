@@ -5,6 +5,7 @@
     --biru2 : #6159e6;
     --biru3 : #6c63ff;
     --biru4 : #9891ff;
+    --biru5 : #e5e3ff;
     --birutransparent: #6059e679;
 }
 *{
@@ -20,8 +21,9 @@
     align-items: center;
 }
 #welcome .selamat{
-    margin-top: 15vh;
+    margin-top: 120px;
     color: var(--biru2);
+    margin-bottom: 0;
 }
 #welcome .kelas{
     font-size: 100px;
@@ -66,6 +68,7 @@
     color: white;
     background-color: var(--biru);
     transform: scale(1.2);
+    border-radius: 15px;
 }
 /* Counter */
 
@@ -117,7 +120,17 @@
         text-align: center;
     }
     #welcome img{
+        margin-top: 40px;
+        width: 80vw;
+    }
+    #welcome .selamat{
         margin-top: 100px;
-        width: 100vw;
+        margin-bottom: 10px;
+    }
+    #Jadwal-Pelajaran{
+        display: none;
+    }
+    #counter .col-lg-4{
+        margin-bottom: 30px;
     }
   }
