@@ -1,6 +1,13 @@
 if (window.matchMedia("(max-width: 992px)").matches) {
     $('#nav li.dropdown>a').attr('data-bs-toggle','dropdown');
-  }
+    $( ".navbar-toggler" ).click(function() {
+      if ($("#nav").hasClass("nav-m")) {
+        $( "#nav" ).removeClass( "nav-m" );
+      } else{
+        $( "#nav" ).addClass( "nav-m" )
+      }
+    });
+}
   
   $(document).ready(function () {
     var $win = $(window);
