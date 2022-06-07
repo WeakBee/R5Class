@@ -87,6 +87,7 @@
     border-radius: 50%;
     background-color: var(--biru4);
     margin-right: 25px;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +101,7 @@
     margin: 0;
   }
   #nav .logolingkaran img{
-    width: 40%;
+    width: 80%;
   }
   /* RESPONSIVE */
   @media (min-width: 992px){
@@ -218,9 +219,6 @@
     #nav .logolingkaran {
       width: 10vw;
       height: 10vw;
-    }
-    #nav .logolingkaran img{
-      width: 50%;
     }
     #nav .juduldropdown{
       font-weight: 700;

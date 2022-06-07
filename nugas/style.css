@@ -1,0 +1,71 @@
+#nav .container-lg {
+    background-color: transparent!important;
+  }
+#daftartugas{
+    padding-top:100px ;
+    background-color: #e5e3ff;
+}
+.judultugas{
+    z-index: 10;
+    margin-bottom: 30px;
+    color: var(--biru);
+}
+.tugasterbaru{
+    display: contents;
+}
+.tugasterbaru .tugas{
+    width: 250px;
+    color: var(--biru);
+    margin-right: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 42px;
+    border-radius: 42px;
+    background: #e5e3ff;
+    box-shadow:  12px 12px 17px #c5c3db,
+             -12px -12px 17px #ffffff;
+
+}
+.tugasterbaru .tugas:hover{
+    background-color: var(--biru);
+    color: white;
+    z-index: 20;
+}
+#tugasselesai{
+    padding-top:100px ;
+    background-color: #34325e;
+}
+#tugasselesai .judultugas{
+    color: var(--biru5);
+}
+.tugasselesai{
+    display: contents;
+}
+.tugasselesai .tugas{
+    width: 250px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 42px;
+    border-radius: 42px;
+    border-radius: 42px;
+    background: #34325e;
+    box-shadow:  12px 12px 17px #2d2b51,
+             -12px -12px 17px #3b396b;
+
+}
+.tugasselesai .tugas:hover{
+    background-color: var(--biru5);
+    color: var(--biru);
+    z-index: 20;
+}
+
