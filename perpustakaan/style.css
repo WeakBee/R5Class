@@ -1,6 +1,9 @@
 #daftarmateri{
     background-color: var(--biru5);
 }
+#nav .container-lg {
+    background-color: transparent!important;
+}
 .container{
     position: relative;
     display: flex;
