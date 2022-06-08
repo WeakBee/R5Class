@@ -46,6 +46,11 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: 0.5s;
+}
+.mapel:hover {
+    background: var(--biru); 
+    color: white;
 }
 .mapel1{
     margin-top: -200px;
