@@ -1,3 +1,13 @@
+$('.img-book').click(function(){
+    if ($(".img-book").hasClass("gambar2")) {
+        $('.img-book').attr('src', '../assets/learning.png');
+        $(".img-book").removeClass( "gambar2" );
+    } else{
+        $('.img-book').attr('src', '../assets/open-book.png');
+        $(".img-book").addClass( "gambar2" );
+    }
+});
+
 $( ".arrow-left" ).click(function() {
     if ($(".mapel1").hasClass("show")) {
         $(".mapel1").removeClass( "show" ).addClass( "show-left" );

@@ -27,6 +27,7 @@
     height: 100px;
     position: absolute;
     animation: floating 10s infinite ease-in-out;
+    cursor: pointer;
 }
 .allmapel{
     margin-left: -100px;
