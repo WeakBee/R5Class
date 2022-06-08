@@ -127,13 +127,16 @@
         background-color: var(--biru5)!important;
     }
     .img-book{
-        margin-top: -150px;
+        width: 180px;
+        height: 180px;
+        margin-top: -350px;
     }
     .shadow{
-        margin-top: 30px;
+        width: 200px;
+        margin-top: -40px;
     }
     .allmapel{
-        margin-top: 200px;
+        margin-top: 100px;
     }
     .mapel {
         background-color: var(--biru);
@@ -141,6 +144,7 @@
         margin: 0;
         box-shadow:  none;
         opacity: 0;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
     }
     .show{
         opacity: 1;
@@ -154,17 +158,28 @@
         opacity: 1;
         transform: translateX(30vw) scale(0.7);
     }
+    .all-arrow{
+        position: absolute;
+        margin-top: 450px;
+        margin-left: -40px;
+    }
     .arrow{
-        margin-top: 20vh;
         width: 40px;
         height: 40px;
-        background-color: var(--biru4);
+        border-radius: 50%;
+        background: linear-gradient(145deg, #f5f3ff, #cecce6);
+        box-shadow:  5px 5px 9px #c3c1d9,
+                    -5px -5px 9px #ffffff;
+    }
+    .arrow:hover{
+        background: linear-gradient(145deg, #cecce6, #f5f3ff);
+        box-shadow:  5px 5px 9px #c3c1d9,
+                    -5px -5px 9px #ffffff;
     }
     .arrow-left{
-        border-radius: 30px 0 0 0;
+        transform: translateX(-35px);
     }
     .arrow-right{
-        margin-left: 60px;
-        border-radius: 0 30px 0 0;
+        transform: translateX(35px);
     }
 }
