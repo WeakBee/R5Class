@@ -69,7 +69,10 @@
 @media only screen and (max-width: 992px) {
     #nav .container-lg {
         background-color: var(--biru5)!important;
-      }
+    }
+    #nav .navbar-collapse {
+        background-color: var(--biru5)!important;
+    }
     .judultugas{
         text-align: center;
     }
