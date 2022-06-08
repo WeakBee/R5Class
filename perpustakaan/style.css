@@ -1,0 +1,112 @@
+#nav .container-lg {
+    background-color: transparent!important;
+  }
+#daftarmateri{
+    background-color: var(--biru5);
+}
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.shadow{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.26);
+    width: 100px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 150px;
+    filter: blur(10px);
+    animation: shadow 10s infinite ease-in-out;
+}
+.img-book{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: floating 10s infinite ease-in-out;
+}
+.allmapel{
+    margin-left: -100px;
+    position: absolute;
+    margin-top: -20px;
+}
+.mapel {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #e5e3ff;
+    box-shadow:  20px 20px 60px #c3c1d9,
+                -20px -20px 60px #ffffff;
+    color: var(--biru);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.mapel1{
+    margin-top: -200px;
+}
+.mapel2{
+    margin-top: -160px;
+    margin-left: 150px;
+}
+.mapel3{
+    margin-top: -80px;
+    margin-left: 250px;
+}
+.mapel4{
+    margin-top: 80px;
+    margin-left: 250px;
+}
+.mapel5{
+    margin-top: 160px;
+    margin-left: 150px;
+}
+.mapel6{
+    margin-top: 200px;
+}
+.mapel7{
+    margin-top: -160px;
+    margin-left: -150px;
+}
+.mapel8{
+    margin-top: -80px;
+    margin-left: -250px;
+}
+.mapel9{
+    margin-top: 80px;
+    margin-left: -250px;
+}
+.mapel10{
+    margin-top: 160px;
+    margin-left: -150px;
+}
+@keyframes floating {
+    0%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+@keyframes shadow {
+    0%{
+        transform: scaleX(0.7);
+        filter: blur(5px);
+    }
+    50%{
+        transform: scaleX(1.2);
+        filter: blur(10px);
+    }
+    100%{
+        transform: scaleX(0.7);
+        filter: blur(5px);
+    }
+}
