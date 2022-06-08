@@ -67,7 +67,7 @@
     z-index: 20;
 }
 @media only screen and (max-width: 992px) {
-    *{
+    .judultugas{
         text-align: center;
     }
 }

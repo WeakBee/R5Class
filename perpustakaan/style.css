@@ -33,6 +33,9 @@
     position: absolute;
     margin-top: -20px;
 }
+.arrow{
+    position: absolute;
+}
 .mapel {
     position: absolute;
     width: 100px;
@@ -51,6 +54,7 @@
 .mapel:hover {
     background: var(--biru); 
     color: white;
+    z-index: 99;
 }
 .mapel1{
     margin-top: -200px;
@@ -113,5 +117,48 @@
     100%{
         transform: scaleX(0.7);
         filter: blur(5px);
+    }
+}
+@media only screen and (max-width: 992px) {
+    .img-book{
+        margin-top: -150px;
+    }
+    .shadow{
+        margin-top: 30px;
+    }
+    .allmapel{
+        margin-top: 200px;
+    }
+    .mapel {
+        background-color: var(--biru);
+        color: white;
+        margin: 0;
+        box-shadow:  none;
+        opacity: 0;
+    }
+    .show{
+        opacity: 1;
+        z-index: 99;
+    }
+    .show-left{
+        opacity: 1;
+        transform: translateX(-30vw) scale(0.7);
+    }
+    .show-right{
+        opacity: 1;
+        transform: translateX(30vw) scale(0.7);
+    }
+    .arrow{
+        margin-top: 20vh;
+        width: 40px;
+        height: 40px;
+        background-color: var(--biru4);
+    }
+    .arrow-left{
+        border-radius: 30px 0 0 0;
+    }
+    .arrow-right{
+        margin-left: 60px;
+        border-radius: 0 30px 0 0;
     }
 }
