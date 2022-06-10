@@ -13,7 +13,7 @@
     color: var(--biru) !important ;
   }
   #nav .navbar-brand img{
-    width: 100px ;
+    width: 90px ;
   }
   #nav .nav-item {
     margin: 0px 35px;
@@ -174,7 +174,6 @@
       background-color: #edf2f7 !important;
     }
     #nav .navbar-collapse {
-      padding-top: 30px;
       background-color: #edf2f7 !important;
     }
     #nav .btn-demo{
