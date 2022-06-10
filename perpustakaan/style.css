@@ -20,13 +20,13 @@
     border-radius: 50%;
     margin-top: 150px;
     filter: blur(10px);
-    animation: shadow 10s infinite ease-in-out;
+    animation: shadow 7s infinite ease-in-out;
 }
 .img-book{
     width: 100px;
     height: 100px;
     position: absolute;
-    animation: floating 10s infinite ease-in-out;
+    animation: floating 7s infinite ease-in-out;
     cursor: pointer;
 }
 .allmapel{
@@ -97,13 +97,13 @@
 }
 @keyframes floating {
     0%{
-        transform: translateY(10px);
+        transform: translateY(15px);
     }
     50%{
-        transform: translateY(-10px);
+        transform: translateY(-15px);
     }
     100%{
-        transform: translateY(10px);
+        transform: translateY(15px);
     }
 }
 @keyframes shadow {
