@@ -16,14 +16,13 @@
 .tugasterbaru{
     display: contents;
 }
-.tugasterbaru .tugas{
+.tugas{
     overflow: hidden;
     position: relative;
     width: 250px;
     color: var(--biru);
     text-align: center;
     margin: 0 auto 40px auto;
-    border-radius: 30px;
     transition: 0.5s;
     border-radius: 42px;
     background: #e5e3ff;
@@ -65,15 +64,7 @@
     display: contents;
 }
 .tugasselesai .tugas{
-    overflow: hidden;
-    position: relative;
-    width: 250px;
     color: var(--biru);
-    text-align: center;
-    margin: 0 auto 40px auto;
-    border-radius: 30px;
-    transition: 0.5s;
-    border-radius: 42px;
     background: #34325e;
     box-shadow:  12px 12px 17px #2d2b51,
              -12px -12px 17px #3b396b;
@@ -84,6 +75,24 @@
 }
 .tugasselesai .thumbnail-tugas{
     color: var(--biru5);
+}
+.tugas-lain{
+    width: 250px;
+    padding: 10px;
+    font-weight: 800;
+    color: var(--biru5);
+    text-align: center;
+    margin: 0 auto 40px auto;
+    border-radius: 42px;
+    background: #34325e;
+    box-shadow:  12px 12px 17px #2d2b51,
+             -12px -12px 17px #3b396b;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.tugas-lain:hover{
+    background-color: var(--biru5);
+    color: var(--biru);
 }
 .fa-arrow-down{
     animation: updown infinite 3s ease-in-out;

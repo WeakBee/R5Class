@@ -1,13 +1,20 @@
+var Cont = { val: 0 },
+  NewVal = 7;
+
+TweenLite.to(Cont, 7, {
+  val: NewVal,
+  roundProps: "val",
+  onUpdate: function () {
+    document.getElementById("semester").innerHTML = Cont.val;
+  },
+  scrollTrigger: {
+    trigger: "#welcome",
+    start: 'top center',
+    toggleActions: 'play none none none',
+  },
+});
 if (window.matchMedia("(max-width: 992px)").matches) {
-  } else {
-    gsap.from(".kotak", {
-        scrollTrigger: {
-            trigger: "#Jadwal-Pelajaran",
-            start: "top 80%", 
-            end: "top 80%", 
-            toggleActions: "restart none none reverse",
-        },
-        y: -200,
-        duration:1,
-    });
-  }
+
+} else {
+
+}

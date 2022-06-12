@@ -30,78 +30,33 @@
 
 /* Counter */
 #counter{
-    padding-top: 50px;
+    padding-top:50px;
+    margin-bottom: 50px;
 }
-#counter{
-    
+#counter .col{
+    text-align: center;    
+    display: grid;
+    place-items: center;
 }
-#counter{
-    
-}
-#counter .col-lg-4{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#counter .col-lg-4 div{
-    padding: 20px;
-    text-align: center;
-    width: 300px;
-    background-color: var(--birutransparent);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
-    transition: 0.5s;
-}
-#counter .col-lg-4 div:hover{
-    color: white;
+#counter .circle{
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
     background-color: var(--biru);
-    transform: scale(1.2);
-    border-radius: 15px;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 1px solid var(--biru);
+    cursor: pointer;
+}
+#counter .circle:hover{
+    background-color: white;
+    color: var(--biru);
 }
 /* Counter */
 
-/* JADWAL PELAJARAN */
-#Jadwal-Pelajaran{
-    margin-top: 30px;
-    padding: 30px;
-    color: white;
-}
-#Jadwal-Pelajaran .judul{
-    overflow: hidden;
-    text-align: center;
-    background-color: var(--biru);
-    border-radius: 20px 20px 0 0 ;
-}
-#Jadwal-Pelajaran .judul h1{
-    font-weight: 700;
-}
-#Jadwal-Pelajaran .col-3{
-    overflow: hidden;
-}
 
-#Jadwal-Pelajaran .kotak{
-    padding: 20px;
-    height: 200px;
-    background-color: var(--biru2);
-    border-radius: 0 0 20px 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
-}
-
-/* JADWAL PELAJARAN */
-
-/* MATKUL */
-#Mata-Kuliah{
-
-}
-#Mata-Kuliah{
-
-}
-#Mata-Kuliah{
-
-}
-#Mata-Kuliah{
-
-}
-/* MATKUL */
 
 @media only screen and (max-width: 992px) {
     #welcome{
@@ -114,9 +69,6 @@
     #welcome .selamat{
         margin-top: 100px;
         margin-bottom: 10px;
-    }
-    #Jadwal-Pelajaran{
-        display: none;
     }
     #counter .col-lg-4{
         margin-bottom: 30px;
