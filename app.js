@@ -1,7 +1,7 @@
 var Cont = { val: 0 },
   NewVal = 7;
 
-TweenLite.to(Cont, 7, {
+TweenLite.to(Cont, 3, {
   val: NewVal,
   roundProps: "val",
   onUpdate: function () {
@@ -13,6 +13,7 @@ TweenLite.to(Cont, 7, {
     toggleActions: 'play none none none',
   },
 });
+
 if (window.matchMedia("(max-width: 992px)").matches) {
 
 } else {

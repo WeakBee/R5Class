@@ -42,9 +42,9 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: #e5e3ff;
-    box-shadow:  20px 20px 60px #c3c1d9,
-                -20px -20px 60px #ffffff;
+    background: var(--biru5);
+    box-shadow:  20px 20px 60px #a1bacd,
+             -20px -20px 60px #d9fcff;
     color: var(--biru);
     display: flex;
     align-items: center;
@@ -172,14 +172,14 @@
         width: 40px;
         height: 40px;
         border-radius: 50%;
-        background: linear-gradient(145deg, #f5f3ff, #cecce6);
-        box-shadow:  5px 5px 9px #c3c1d9,
-                    -5px -5px 9px #ffffff;
+        background: linear-gradient(145deg, #caeaff, #aac5d9);
+box-shadow:  8px 8px 16px #8ea4b5,
+             -8px -8px 16px #ecffff;
     }
     .arrow:hover{
-        background: linear-gradient(145deg, #cecce6, #f5f3ff);
-        box-shadow:  5px 5px 9px #c3c1d9,
-                    -5px -5px 9px #ffffff;
+        background: linear-gradient(145deg, #aac5d9, #caeaff);
+box-shadow:  8px 8px 16px #8ea4b5,
+             -8px -8px 16px #ecffff;
     }
     .arrow-left{
         transform: translateX(-35px);

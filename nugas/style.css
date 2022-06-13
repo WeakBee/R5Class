@@ -6,7 +6,7 @@
 }
 #daftartugas{
     padding-top:100px ;
-    background-color: #e5e3ff;
+    background-color: var(--biru5);
 }
 .judultugas{
     z-index: 10;
@@ -25,9 +25,9 @@
     margin: 0 auto 40px auto;
     transition: 0.5s;
     border-radius: 42px;
-    background: #e5e3ff;
-    box-shadow:  12px 12px 17px #c5c3db,
-             -12px -12px 17px #ffffff;
+    background: var(--biru5);
+    box-shadow:  20px 20px 60px #a1bacd,
+    -20px -20px 60px #d9fcff;
 }
 .keterangan-tugas{
     position: absolute;
@@ -41,6 +41,7 @@
     transition: 0.5s;
 }
 .tugas:hover .keterangan-tugas{
+    z-index: 10;
     transform: translateY(0);
 }
 .thumbnail-tugas{
@@ -55,7 +56,7 @@
 }
 #tugasselesai{
     padding-top:100px ;
-    background-color: #34325e;
+    background-color: var(--biru);
 }
 #tugasselesai .judultugas{
     color: var(--biru5);
@@ -65,9 +66,9 @@
 }
 .tugasselesai .tugas{
     color: var(--biru);
-    background: #34325e;
-    box-shadow:  12px 12px 17px #2d2b51,
-             -12px -12px 17px #3b396b;
+    background: var(--biru);
+    box-shadow:  20px 20px 60px #00012f,
+             -20px -20px 30px #00013f;
 }
 .tugasselesai .keterangan-tugas{
     background-color: var(--biru5);
@@ -84,9 +85,9 @@
     text-align: center;
     margin: 0 auto 40px auto;
     border-radius: 42px;
-    background: #34325e;
-    box-shadow:  12px 12px 17px #2d2b51,
-             -12px -12px 17px #3b396b;
+    background: var(--biru);
+    box-shadow:  20px 20px 60px #00012f,
+             -10px -10px 10px #00013f;
     cursor: pointer;
     transition: 0.5s;
 }
