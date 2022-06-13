@@ -56,7 +56,7 @@
 }
 #tugasselesai{
     padding-top:100px ;
-    background-color: var(--biru);
+    background-color: var(--biru2);
 }
 #tugasselesai .judultugas{
     color: var(--biru5);
@@ -66,9 +66,9 @@
 }
 .tugasselesai .tugas{
     color: var(--biru);
-    background: var(--biru);
-    box-shadow:  20px 20px 60px #00012f,
-             -20px -20px 30px #00013f;
+    background: var(--biru2);
+    box-shadow:  21px 21px 42px #02044d,
+             -21px -21px 42px #020668;
 }
 .tugasselesai .keterangan-tugas{
     background-color: var(--biru5);
@@ -85,9 +85,9 @@
     text-align: center;
     margin: 0 auto 40px auto;
     border-radius: 42px;
-    background: var(--biru);
-    box-shadow:  20px 20px 60px #00012f,
-             -10px -10px 10px #00013f;
+    background: var(--biru2);
+    box-shadow:  11px 11px 22px #02044d,
+             -11px -11px 22px #020668;
     cursor: pointer;
     transition: 0.5s;
 }
