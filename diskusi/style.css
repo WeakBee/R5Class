@@ -1,0 +1,36 @@
+#daftardiskusi{
+    padding-top: 120px;
+}
+.ruang{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.288);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    color: white;
+    cursor: pointer;
+}
+.ruang:hover .bgimg{
+    transform: scale(1.1);
+}
+.bgimg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    transition: 0.5s;
+}
+.ruangtext{
+    margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0.719);
+    padding: 10px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 400px) {
+    .bgimg{
+        height: 150%;
+    }    
+}
