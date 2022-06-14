@@ -1,9 +1,9 @@
 $('.img-book').click(function(){
     if ($(".img-book").hasClass("gambar2")) {
-        $('.img-book').attr('src', '../assets/learning.png');
+        $('.img-book').attr('src', '../assets/world-book.png');
         $(".img-book").removeClass( "gambar2" );
     } else{
-        $('.img-book').attr('src', '../assets/open-book.png');
+        $('.img-book').attr('src', '../assets/world-book2.png');
         $(".img-book").addClass( "gambar2" );
     }
 });
