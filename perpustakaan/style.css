@@ -95,6 +95,9 @@
     margin-top: 160px;
     margin-left: -150px;
 }
+.arrow{
+    display: none;
+}
 @keyframes floating {
     0%{
         transform: translateY(15px);
