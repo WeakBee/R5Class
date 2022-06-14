@@ -169,6 +169,9 @@
         margin-left: -40px;
     }
     .arrow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 40px;
         height: 40px;
         border-radius: 50%;
@@ -186,5 +189,9 @@ box-shadow:  8px 8px 16px #8ea4b5,
     }
     .arrow-right{
         transform: translateX(35px);
+    }
+    .arrow i{
+        font-size: 15px;
+        color: var(--biru);
     }
 }

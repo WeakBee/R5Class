@@ -19,6 +19,7 @@
 }
 .bgimg{
     position: absolute;
+    bottom: -50px;
     z-index: -1;
     width: 100%;
     transition: 0.5s;
